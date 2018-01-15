@@ -102,7 +102,7 @@ class navigator:
                 self.addDirectoryItem(32026,              'tvshows&url=premiere', 'years.png',         'DefaultTVShows.png')
                 self.addDirectoryItem('My Elysium',       'lists_navigator',      'mymovies.png',      'DefaultRecentlyAddedMovies.png')
                 self.addDirectoryItem(32027,              'calendars',            'networks.png',      'DefaultRecentlyAddedEpisodes.png')
-                self.addDirectoryItem(32007,              'channels',             'channels.png',      'DefaultMovies.png')
+                # self.addDirectoryItem(32007,              'channels',             'channels.png',      'DefaultMovies.png')
                 self.addDirectoryItem(32008,              'toolNavigator',        'tools.png',         'DefaultAddonProgram.png')
                 downloads = True if control.setting('downloads') == 'true' and (len(control.listDir(control.setting('movie.download.path'))[0]) > 0) else False
                 if downloads == True:
@@ -405,7 +405,7 @@ class navigator:
 
         def tvCollections(self):
                 self.addDirectoryItem('Blast From The Past', 'tvshows&url=tmdbblast', 'blast.png', 'DefaultTVShows.png')
-                self.addDirectoryItem('Blaze It TV', 'tvshows&url=tmdb420tv', '420.png', 'DefaultTVShows.png')
+                self.addDirectoryItem('Based On A True Story', 'tvshows&url=tmdb420tv', 'truestories.png', 'DefaultTVShows.png')
                 self.addDirectoryItem('Datenight', 'tvshows&url=tmdbdatenighttv', 'datenight.png', 'DefaultTVShows.png')
                 self.addDirectoryItem('Gamers Paradise', 'tvshows&url=tmdbgamers', 'gamersparadise.png', 'DefaultTVShows.png')
                 self.addDirectoryItem('Hungry Yet', 'tvshows&url=tmdbcooking', 'hungry.png', 'DefaultTVShows.png')

@@ -32,7 +32,7 @@ class movies:
                 self.imdb_link            = 'http://www.imdb.com'
                 self.tmdb_key             = control.setting('tmdb_apikey')
                 if self.tmdb_key == '' or self.tmdb_key == None:
-                        self.tmdb_key         = base64.b64decode('ODJjZmUzNTFmMDc5ZTdiZTVhNjhlNWUxNGMwMzQzZmQ=')
+                        self.tmdb_key         = base64.b64decode('ZWNiYzg2YzkyZGEyMzdjYjlmYWZmNmQzZGRjNGJlNmQ=')
                 self.datetime             = (datetime.datetime.utcnow() - datetime.timedelta(hours = 5))
                 self.systime              = (self.datetime).strftime('%Y%m%d%H%M%S%f')
                 self.trakt_user           = control.setting('trakt.user').strip()
@@ -116,7 +116,7 @@ class movies:
                 self.tmdbstandup_link     = 'http://api.themoviedb.org/3/list/13392?api_key=%s' % (self.tmdb_key)
                 self.tmdbgwg_link         = 'http://api.themoviedb.org/3/list/13396?api_key=%s' % (self.tmdb_key)
                 #self.tmdbbased_link       = 'http://api.themoviedb.org/3/list/13479?api_key=%s' % (self.tmdb_key)
-                self.tmdbbased_link       = 'http://api.themoviedb.org/3/list/36445?api_key=%s' % (self.tmdb_key)
+                self.tmdbbased_link       = 'http://api.themoviedb.org/3/list/40740?api_key=%s' % (self.tmdb_key)
                 self.tmdbconman_link      = 'http://api.themoviedb.org/3/list/36664?api_key=%s' % (self.tmdb_key)
                 self.tmdbcold_link        = 'http://api.themoviedb.org/3/list/36444?api_key=%s' % (self.tmdb_key)
                 self.tmdbspy_link         = 'http://api.themoviedb.org/3/list/36553?api_key=%s' % (self.tmdb_key)
@@ -124,7 +124,7 @@ class movies:
                 self.tmdbgamers_link      = 'http://api.themoviedb.org/3/list/13477?api_key=%s' % (self.tmdb_key)
                 self.tmdbvigilante_link   = 'http://api.themoviedb.org/3/list/13481?api_key=%s' % (self.tmdb_key)
                 self.tmdbsnatched_link    = 'http://api.themoviedb.org/3/list/13516?api_key=%s' % (self.tmdb_key)
-                self.tmdbhack_link        = 'http://api.themoviedb.org/3/list/13514?api_key=%s' % (self.tmdb_key)
+                self.tmdbhack_link        = 'http://api.themoviedb.org/3/list/43444?api_key=%s' % (self.tmdb_key)
                 self.tmdbheist_link       = 'http://api.themoviedb.org/3/list/13513?api_key=%s' % (self.tmdb_key)
                 self.tmdbbooks_link       = 'http://api.themoviedb.org/3/list/13515?api_key=%s' % (self.tmdb_key)
                 self.tmdbanimal_link      = 'http://api.themoviedb.org/3/list/13488?api_key=%s' % (self.tmdb_key)
