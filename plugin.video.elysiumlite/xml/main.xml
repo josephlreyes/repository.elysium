@@ -1,0 +1,38 @@
+<xml>
+  <dir>
+    <title>Movies</title>
+    <link>file://movies.xml</link>
+	<thumbnail>special://home/addons/plugin.video.jenpluging/xml/Default/movies.png</thumbnail>
+  </dir>
+
+  <dir>
+    <title>TV Shows</title>
+    <link>file://tvshows.xml</link>
+	<thumbnail>special://home/addons/plugin.video.jenpluging/xml/Default/tvshows.png</thumbnail>
+  </dir>
+  
+  <dir>
+   <title>Trakt</title>
+   <link>file://trakt.xml</link>
+   <thumbnail>special://home/addons/plugin.video.jenpluging/xml/Default/trakt.png</thumbnail>
+  </dir>
+  
+  <dir>
+    <title>People</title>
+    <link>file://people.xml</link>
+	<thumbnail>special://home/addons/plugin.video.jenpluging/xml/Default/people.png</thumbnail>
+  </dir>
+  
+  <dir>
+    <title>Search</title>
+    <link>file://search.xml</link>
+	<thumbnail>special://home/addons/plugin.video.jenpluging/xml/Default/search.png</thumbnail>
+  </dir>
+
+  <plugin>
+  <name>Tools</name>
+  <link>plugin://plugin.video.jenpluging/?action=openSettings</link>
+  <thumbnail>special://home/addons/plugin.video.elysiumlite/xml/Default/tools.png</thumbnail>
+  <summary>Tools</summary>
+</plugin>
+</xml>

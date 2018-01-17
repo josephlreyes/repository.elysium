@@ -1,0 +1,15 @@
+<xml>
+    <dir>
+      <title>Actors</title>
+      <link>file://shared lists/actors.xml</link>
+	  <summary>Actors List</summary>
+	  <thumbnail>special://home/addons/plugin.video.jenpluging/xml/Default/people.png</thumbnail>
+    </dir>
+
+	<dir>
+      <title>Actress</title>
+      <link>file://shared lists/actress.xml</link>
+	  <summary>Actress List</summary>
+	  <thumbnail>special://home/addons/plugin.video.jenpluging/xml/Default/people.png</thumbnail>
+    </dir>
+</xml>

@@ -1,0 +1,57 @@
+<xml>
+    <dir>
+      <title>Popular</title>
+      <tmdb>movies/popular</tmdb>
+	  <summary>Popular Movies</summary>
+	  <thumbnail>special://home/addons/plugin.video.jenpluging/xml/Default/most-popular.png</thumbnail>
+    </dir>
+
+	<dir>
+      <title>Now Playing</title>
+      <tmdb>movies/now_playing</tmdb>
+	  <summary>Movies Currently In Theaters</summary>
+	  <thumbnail>special://home/addons/plugin.video.jenpluging/xml/Default/in-theaters.png</thumbnail>
+    </dir>
+
+	<dir>
+      <title>Top Rated</title>
+      <tmdb>movies/top_rated</tmdb>
+	  <summary>Top Rated TMDB Movies</summary>
+	  <thumbnail>special://home/addons/plugin.video.jenpluging/xml/Default/populars.png</thumbnail>
+    </dir>
+	
+	<dir>
+      <title>Genres</title>
+      <link>file://shared lists/genre_movies.xml</link>
+	  <summary>Search Movies by Genre</summary>
+	  <thumbnail>special://home/addons/plugin.video.jenpluging/xml/Default/genres.png</thumbnail>
+    </dir>
+
+	<dir>
+      <title>Years</title>
+      <link>file://shared lists/movie-years.xml</link>
+	  <summary>Search Movies by Year</summary>
+	  <thumbnail>special://home/addons/plugin.video.jenpluging/xml/Default/years.png</thumbnail>
+    </dir>
+	
+	<dir>
+      <title>Disney Movies</title>
+      <trakt>https://trakt.tv/users/arb/lists/disney</trakt>
+	  <summary>Disney Movie Collection</summary>
+	  <thumbnail>special://home/addons/plugin.video.jenpluging/xml/Default/disney.png</thumbnail>
+    </dir>
+
+	<dir>
+      <title>Oscar Winners</title>
+      <trakt>https://trakt.tv/users/arb/lists/oscar-winners</trakt>
+	  <summary>Winners of Best Picture Award</summary>
+	  <thumbnail>special://home/addons/plugin.video.jenpluging/xml/Default/oscars.png</thumbnail>
+    </dir>
+	
+	<dir>
+      <title>Upcoming Movies</title>
+      <tmdb>movie/upcoming</tmdb>
+      <summary>Shows Trailers For Upcoming Movies</summary>
+	  <thumbnail>special://home/addons/plugin.video.jenpluging/xml/Default/featured.png</thumbnail>
+    </dir>
+</xml>

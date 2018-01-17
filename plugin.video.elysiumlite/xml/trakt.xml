@@ -1,0 +1,49 @@
+<xml>
+     <dir>
+<title>Watched Movies</title>
+<trakt>https://api.trakt.tv/movies/watched</trakt>
+<thumbnail>special://home/addons/plugin.video.jenpluging/xml/Default/trakt.png</thumbnail>
+</dir>
+
+<dir>
+<title>Trending Movies</title>
+<trakt>https://api.trakt.tv/movies/trending</trakt>
+<thumbnail>special://home/addons/plugin.video.jenpluging/xml/Default/trakt.png</thumbnail>
+</dir>
+
+<dir>
+<title>Popular Movies</title>
+<trakt>https://api.trakt.tv/movies/popular</trakt>
+<thumbnail>special://home/addons/plugin.video.jenpluging/xml/Default/trakt.png</thumbnail>
+</dir>
+
+<dir>
+<title>Trending TV Shows</title>
+<trakt>https://api.trakt.tv/shows/trending</trakt>
+<thumbnail>special://home/addons/plugin.video.jenpluging/xml/Default/trakt.png</thumbnail>
+</dir>
+
+<dir>
+<title>Popular TV Shows</title>
+<trakt>https://api.trakt.tv/shows/popular</trakt>
+<thumbnail>special://home/addons/plugin.video.jenpluging/xml/Default/trakt.png</thumbnail>
+</dir>
+
+<dir>
+<title>Collected TV Shows</title>
+<trakt>https://api.trakt.tv/shows/collected/weekly</trakt>
+<thumbnail>special://home/addons/plugin.video.jenpluging/xml/Default/trakt.png</thumbnail>
+</dir>
+
+<dir>
+  <title>My lists</title>
+  <trakt>https://api.trakt.tv/users/me/lists/</trakt>
+  <thumbnail>special://home/addons/plugin.video.jenpluging/xml/Default/trakt.png</thumbnail>
+</dir>
+
+<dir>
+  <title>My Liked Lists</title>
+  <trakt>https://api.trakt.tv/users/likes/lists</trakt>
+  <thumbnail>special://home/addons/plugin.video.jenpluging/xml/Default/trakt.png</thumbnail>
+</dir>
+</xml>
