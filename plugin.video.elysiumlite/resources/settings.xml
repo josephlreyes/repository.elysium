@@ -1,5 +1,5 @@
 <settings>
-        <!-- customization settings -->
+    <!-- customization settings -->
     <category label="Customization">
       <setting label="Display" type="lsep"/>
       <setting label="Enable Settings Context item" type="bool" id="settings_context" default="true"/>
@@ -19,21 +19,20 @@
       <setting label="32514" type="lsep"/>
       <setting label="32515" type="bool" id="enable_gifs" default="false" />
     </category>
-
     <!-- main user settings -->
     <category label="30715">
       <setting label="30718" type="lsep"/>
       <setting label="30719" type="action" option="close"
-               action="RunPlugin(plugin://plugin.video.jenplugin/?mode=clearCache)"/>
+               action="RunPlugin(plugin://plugin.video.elysiumlite/?mode=clearCache)"/>
       <setting label="30733" type="lsep"/>
       <!-- scraper settings -->
       <setting label="30734" type="action" option="close"
-               action="RunPlugin(plugin://plugin.video.jenplugin/?mode=ScraperSettings)"/>
-      <setting id="use_link_dialog" label="30744" type="bool" default="true" />
-      <setting id="link_fallthrough" label="30745" type="bool"	default="true" visible="eq(-1,true)"/>
+               action="RunPlugin(plugin://plugin.video.elysiumlite/?mode=ScraperSettings)"/>
+      <setting id="use_link_dialog" label="Default action" values="Dialog+|Link Selector|SD/HD" type="labelenum" default="Dialog+"/>
+      <setting id="link_fallthrough" label="30745" type="bool" default="true" visible="eq(-1,Link Selector)"/>
       <setting label="30741" type="lsep"/>
       <setting label="30742" type="action" option="close"
-               action="RunPlugin(plugin://plugin.video.jenplugin/?mode=ResolverSettings)"/>
+               action="RunPlugin(plugin://plugin.video.elysiumlite/?mode=ResolverSettings)"/>
       <!-- filtering settings -->
       <setting label="30735" type="lsep"/>
       <setting id="allow_openload" label="30736" type="bool" default="false"/>
@@ -47,26 +46,26 @@
       <setting id="include_watched_queue" label="Include Watched In Collection Queueing" type="bool" default="false"/>
       <setting id="autostart_queue" label="Auto start queue if empty" type="bool" default="true"/>
     </category>
-
     <!-- Third party install options -->
-    <!--	<category label="30740">
-            <setting id="installaddons"			label="30766"   type="bool"		default="false"		visible="true"/>
-            <setting label="30762"	type="lsep" />
-            <setting label="30763"	type="lsep" />
-            <setting id="installrepos"			label="30757"   type="bool"		default="false"		visible="eq(-3,true)"/>
-            <setting label="30765"	type="lsep"	visible="eq(-4,true)"/>
+    <!--<category label="30740">
+            <setting id="installaddons" label="30766" type="bool"  default="false"  visible="true"/>
+            <setting label="30762" type="lsep" />
+            <setting label="30763" type="lsep" />
+            <setting id="installrepos"   label="30757" type="bool"  default="false"  visible="eq(-3,true)"/>
+            <setting label="30765" type="lsep" visible="eq(-4,true)"/>
         </category>-->
-
     <!-- login - future features for playlisters -->
     <category label="30770">
       <!-- debugging and developer options -->
       <setting id="debug" type="bool" label="30758" default="false" visible="true"/>
       <setting id="first_run" label="first run" type="bool" default="false" visible="false"/>
-      <setting label="Cache Location" id="cache_folder" type="folder" default="special://profile/addon_data/plugin.video.jenplugin/"/>
+      <setting label="Cache Location" id="cache_folder" type="folder" default="special://profile/addon_data/plugin.video.elysiumlite/"/>
+      <setting label="TVDb api key" type="text" id="tvdb_api_key" option="hidden" default="39CBA80314602D67" visible="eq(-3,true)"/>
+      <setting label="TMDb api key" type="text" id="tmdb_api_key" option="hidden" default="ecbc86c92da237cb9faff6d3ddc4be6d" visible="eq(-4,true)"/>
+      <setting label="Trakt client id" type="text" id="trakt_api_client_id" option="hidden" default="8b3c509d7ae20fb31efcf95a7f030da562c37a8f0d9cd100db6ac1a41970f8ac" visible="eq(-5,true)"/>
+      <setting label="Trakt client secret" type="text" id="trakt_api_client_secret" option="hidden" visible="!eq(-1,8b3c509d7ae20fb31efcf95a7f030da562c37a8f0d9cd100db6ac1a41970f8ac) + eq(-6,true)" default="497efc355950bdf6897406a837eee0a14c017e1aede2e0de1094167ad6f45ba3"/>
       <setting id="TRAKT_ACCES_TOKEN" label="" type="text" visible="false"/>
       <setting id="TRAKT_EXPIRES_AT" label="" type="text" visible="false"/>
       <setting id="TRAKT_REFRESH_TOKEN" label="" type="text" visible="false"/>
     </category>
-
-
 </settings>
