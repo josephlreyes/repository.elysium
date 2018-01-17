@@ -17,15 +17,16 @@
     along with this program.  If not, see <http://www.gnu.org/licenses/>.
 """
 import __builtin__
+import xbmcaddon
 
 # CONFIGURATION VARIABLES
 # -----------------------
 # change these to suit your addons
 root_xml_url = "file://main.xml"  # url of the root xml file
-__builtin__.tvdb_api_key = ""  # tvdb api key
-__builtin__.tmdb_api_key = "ecbc86c92da237cb9faff6d3ddc4be6d"  # tmdb api key
-__builtin__.trakt_client_id = "0ad2ba1d3327fdfaea38afd49e50756717d6a62f728c1307aebc9945adac58e9"  # trakt client id
-__builtin__.trakt_client_secret = "a5b7c63b3e478fa07c2e02a9bdfd2a795d315323a8b25ddd9c3b31da144d37cc"  # trakt client secret
+__builtin__.tvdb_api_key = xbmcaddon.Addon().getSetting("tvdb_api_key")  # tvdb api key
+__builtin__.tmdb_api_key = xbmcaddon.Addon().getSetting("tmdb_api_key")  # tmdb api key
+__builtin__.trakt_client_id = xbmcaddon.Addon().getSetting("trakt_api_client_id")  # trakt client id
+__builtin__.trakt_client_secret = "497efc355950bdf6897406a837eee0a14c017e1aede2e0de1094167ad6f45ba3"  # trakt client secret
 __builtin__.search_db_location = ""  # location of search db
 
 import os
@@ -38,7 +39,6 @@ import resources.lib.sources
 import resources.lib.testings
 import resources.lib.util.info
 import xbmc
-import xbmcaddon
 import xbmcplugin
 from koding import route
 from resources.lib.util.xml import JenList, display_list
