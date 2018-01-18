@@ -88,7 +88,7 @@ class Sources(object):
         content = 'movie' if tvshowtitle is None else 'episode'
         allow_debrid = ADDON.getSetting('allow_debrid') == "true"
 
-        if ADDON.getSetting('use_link_dialog') == 'true' and not skip_selector:
+        if ADDON.getSetting('use_link_dialog') == 'Link Selector' and not skip_selector:
             # use link selector
             if content == 'movie':
                 scraper = nanscrapers.scrape_movie_with_dialog
@@ -168,6 +168,7 @@ class Sources(object):
                     ignore_dp=True,
                     item=listitem,
                     player=player)
+#        elif ADDON.getSetting('use_link_dialog') == 'Dialog+' and not skip_selector:
         else:
             if content == 'movie':
                 title = title
@@ -312,7 +313,7 @@ class Sources(object):
         """
         title = title
         allow_debrid = ADDON.getSetting('allow_debrid') == "true"
-        if ADDON.getSetting('use_link_dialog') == 'true' and not skip_selector:
+        if ADDON.getSetting('use_link_dialog') == 'Link Selector' and not skip_selector:
             link, rest = nanscrapers.scrape_song_with_dialog(
                 title,
                 artist,
@@ -564,7 +565,7 @@ def choose_quality(link, name=None, selected_link=None):
         default_link = ADDON.getSetting("default_link")
     else:
         default_link = selected_link
-    link_dialog = ADDON.getSetting("use_link_dialog") == "true"
+    link_dialog = ADDON.getSetting("use_link_dialog") == "Link Selector"
     direct_links = False
     for sublink in sublinks:
         if link_dialog and "search" in sublink:
@@ -615,6 +616,7 @@ def get_sources(item):
     item -- JenItem to try playing
     """
     result = run_hook("get_sources", item)
+    xbmc.log("QQQQ Result = {}".format(result), xbmc.LOGNOTICE)
     if result:
         return
     if item.startswith("<plugin>"):

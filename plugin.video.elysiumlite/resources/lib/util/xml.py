@@ -244,7 +244,7 @@ wrapper class for jen list functions
         elif item.item_string.startswith("<dir>"):
             title = item["name"]
             if title == "":
-                title = item["title"]
+                title = _(item["title"]).title()
             try:
                 title = xbmcaddon.Addon().getLocalizedString(int(title))
             except ValueError:
@@ -264,7 +264,7 @@ wrapper class for jen list functions
             link = item["link"]
             title = item["name"]
             if title == "":
-                title = item["title"]
+                title = _(item["title"]).title()
             try:
                 title = xbmcaddon.Addon().getLocalizedString(int(title))
             except ValueError:

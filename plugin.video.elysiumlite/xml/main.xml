@@ -2,37 +2,42 @@
   <dir>
     <title>Movies</title>
     <link>file://movies.xml</link>
-	<thumbnail>special://home/addons/plugin.video.jenpluging/xml/Default/movies.png</thumbnail>
+    <thumbnail>https://raw.githubusercontent.com/OpenELEQ/repository.elysium/master/images/Default/movies.png</thumbnail>
+    <summary>Movies</summary>
   </dir>
 
   <dir>
     <title>TV Shows</title>
     <link>file://tvshows.xml</link>
-	<thumbnail>special://home/addons/plugin.video.jenpluging/xml/Default/tvshows.png</thumbnail>
+    <thumbnail>https://raw.githubusercontent.com/OpenELEQ/repository.elysium/master/images/Default/tvshows.png</thumbnail>
+    <summary>TV Shows</summary>
   </dir>
-  
+
   <dir>
-   <title>Trakt</title>
-   <link>file://trakt.xml</link>
-   <thumbnail>special://home/addons/plugin.video.jenpluging/xml/Default/trakt.png</thumbnail>
+    <title>Trakt</title>
+    <link>file://trakt.xml</link>
+    <thumbnail>https://raw.githubusercontent.com/OpenELEQ/repository.elysium/master/images/Default/trakt.png</thumbnail>
+    <summary>Trakt</summary>
   </dir>
-  
+
   <dir>
-    <title>People</title>
+    <title>Actors</title>
     <link>file://people.xml</link>
-	<thumbnail>special://home/addons/plugin.video.jenpluging/xml/Default/people.png</thumbnail>
+    <thumbnail>https://raw.githubusercontent.com/OpenELEQ/repository.elysium/master/images/Default/people.png</thumbnail>
+    <summary>Actors</summary>
   </dir>
-  
+
   <dir>
     <title>Search</title>
     <link>file://search.xml</link>
-	<thumbnail>special://home/addons/plugin.video.jenpluging/xml/Default/search.png</thumbnail>
+    <thumbnail>https://raw.githubusercontent.com/OpenELEQ/repository.elysium/master/images/Default/search.png</thumbnail>
+    <summary>Search</summary>
   </dir>
 
   <plugin>
-  <name>Tools</name>
-  <link>plugin://plugin.video.jenpluging/?action=openSettings</link>
-  <thumbnail>special://home/addons/plugin.video.elysiumlite/xml/Default/tools.png</thumbnail>
-  <summary>Tools</summary>
-</plugin>
+    <title>Settings</title>
+    <link>plugin://plugin.video.elysiumlite/?action=openSettings</link>
+    <thumbnail>https://raw.githubusercontent.com/OpenELEQ/repository.elysium/master/images/Default/tools.png</thumbnail>
+    <summary>Settings</summary>
+  </plugin>
 </xml>

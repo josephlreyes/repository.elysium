@@ -194,7 +194,7 @@ msgid "Enable Debrid"
 msgstr ""
 
 msgctxt "#30744"
-msgid "Enable Link Selection Dialog"
+msgid "Default action"
 msgstr ""
 
 msgctxt "#30745"
@@ -790,3 +790,8 @@ msgstr ""
 msgctxt "#30059"
 msgid "All Episodes"
 msgstr ""
+
+
+
+
+
