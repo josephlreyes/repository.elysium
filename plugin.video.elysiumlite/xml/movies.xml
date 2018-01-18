@@ -54,10 +54,4 @@
     <summary>Shows Trailers For Upcoming Movies</summary>
     <thumbnail>https://raw.githubusercontent.com/OpenELEQ/repository.elysium/master/images/Default/featured.png</thumbnail>
   </dir>
-
-  <dir>
-    <name>The Movie Database</name>
-    <link>message(This product uses the TMDb API but is not endorsed or certified by TMDb.)</link>
-    <thumbnail>https://raw.githubusercontent.com/OpenELEQ/repository.elysium/master/images/Default/tmdb.png</thumbnail>
-  </dir>
 </xml>

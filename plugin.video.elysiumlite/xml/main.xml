@@ -27,17 +27,17 @@
     <summary>Actors</summary>
   </dir>
 
-  <dir>
-    <title>Search</title>
-    <link>file://search.xml</link>
-    <thumbnail>https://raw.githubusercontent.com/OpenELEQ/repository.elysium/master/images/Default/search.png</thumbnail>
-    <summary>Search</summary>
-  </dir>
-
   <plugin>
     <title>Settings</title>
     <link>plugin://plugin.video.elysiumlite/?action=openSettings</link>
     <thumbnail>https://raw.githubusercontent.com/OpenELEQ/repository.elysium/master/images/Default/tools.png</thumbnail>
     <summary>Settings</summary>
   </plugin>
+
+  <dir>
+    <title>Search</title>
+    <link>file://search.xml</link>
+    <thumbnail>https://raw.githubusercontent.com/OpenELEQ/repository.elysium/master/images/Default/search.png</thumbnail>
+    <summary>Search</summary>
+  </dir>
 </xml>

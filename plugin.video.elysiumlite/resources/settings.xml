@@ -1,6 +1,11 @@
 <settings>
     <!-- customization settings -->
     <category label="Customization">
+      <setting label="30060" type="action" action="noop"/>
+      <setting label="32510" type="lsep"/>
+      <setting id="use_link_dialog" label="$LOCALIZE[22079]" values="Link Selector|SD/HD" type="select" default="Link Selector" visible="true"/>
+      <setting id="link_fallthrough" label="30745" type="bool" default="true" visible="eq(-1,0)"/>
+      <setting label="32511" type="select" values="BOTH|SD|HD" id="default_link" default="BOTH" visible="eq(-2,1)"/>
       <setting label="Display" type="lsep"/>
       <setting label="Enable Settings Context item" type="bool" id="settings_context" default="true"/>
       <setting label="Enable Trailer Context item" type="bool" id="trailer_context" default="true"/>
@@ -9,10 +14,6 @@
       <setting label="32506" type="select"
                values="system|bg|cs|da|de|el|en|es|fi|fr|he|hr|hu|it|ja|ko|nl|no|pl|pt|ru|sl|sv|tr|zh"
                id="language_id" default="system"/>
-      <setting label="32510" type="lsep"/>
-      <setting id="use_link_dialog" label="$LOCALIZE[22079]" values="Link Selector|SD/HD" type="select" default="Link Selector" visible="true"/>
-      <setting id="link_fallthrough" label="30745" type="bool" default="true" visible="eq(-1,0)"/>
-      <setting label="32511" type="select" values="BOTH|SD|HD" id="default_link" default="BOTH" visible="eq(-2,1)"/>
       <setting label="32507" type="lsep"/>
       <setting label="30717" type="bool" id="metadata" default="true"/>
       <setting label="Disable metadata Dialog" type="bool" id="disable_metadata_dialog" default="false"/>
