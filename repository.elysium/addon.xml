@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="repository.elysium" version="2018.01.17" name="Elysium repository" provider-name="Elysium">
+<addon id="repository.elysium" version="2018.01.19" name="Elysium repository" provider-name="Elysium">
     <requires>
         <import addon="xbmc.python" version="2.19.0" />
     </requires>
@@ -10,9 +10,9 @@
             <datadir zip="true">https://raw.githubusercontent.com/noobsandnerds/modules4all/master/zips/</datadir>
         </dir>
         <dir minversion="14.0.0">
-            <info compressed="false">https://raw.githubusercontent.com/OpenELEQ/repository.elysium/exp/elysium.xml</info>
-            <checksum>https://raw.githubusercontent.com/OpenELEQ/repository.elysium/exp/elysium.xml.md5</checksum>
-            <datadir zip="true">https://raw.githubusercontent.com/OpenELEQ/repository.elysium/exp/zips/</datadir>
+            <info compressed="false">https://raw.githubusercontent.com/OpenELEQ/repository.elysium/master/elysium.xml</info>
+            <checksum>https://raw.githubusercontent.com/OpenELEQ/repository.elysium/master/elysium.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/OpenELEQ/repository.elysium/master/zips/</datadir>
         </dir>
     </extension>
     <extension point="xbmc.addon.metadata">
@@ -20,7 +20,7 @@
         <description lang="en">This repository contains Elysium and required dependencies.</description>
         <disclaimer lang="en">The author does not host or share any content, nor is he affiliated with any of the content providers.</disclaimer>
         <platform>all</platform>
-        <news>Added zips folder / Enhanced generator.py</news>
+        <news>Fixed repo dirs</news>
         <assets>
             <icon>icon.png</icon>
             <fanart>fanart.jpg</fanart>
