@@ -54,4 +54,25 @@
       <thumbnail>https://raw.githubusercontent.com/OpenELEQ/repository.elysium/master/images/Default/trakt.png</thumbnail>
       <summary>Your Liked Lists</summary>
   </dir>
+  
+      <dir>
+      <title>My Watchlist</title>
+      <trakt>https://api.trakt.tv/users/me/watchlist/</trakt>
+	  <thumbnail>https://raw.githubusercontent.com/OpenELEQ/repository.elysium/master/images/Default/trakt.png</thumbnail>
+      <summary>Your Watch List</summary>
+    </dir>
+
+    <dir>
+      <title>My Movie Collection</title>
+      <trakt>https://api.trakt.tv/users/me/collection/movies</trakt>
+	  <thumbnail>https://raw.githubusercontent.com/OpenELEQ/repository.elysium/master/images/Default/trakt.png</thumbnail>
+      <summary>Your Movie Collection</summary>
+    </dir>
+	
+	<dir>
+      <title>My TV Show Collection</title>
+      <trakt>https://api.trakt.tv/users/me/collection/shows</trakt>
+	  <thumbnail>https://raw.githubusercontent.com/OpenELEQ/repository.elysium/master/images/Default/trakt.png</thumbnail>
+      <summary>Your TV Show Collection</summary>
+    </dir>
 </xml>
