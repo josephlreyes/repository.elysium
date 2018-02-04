@@ -1,0 +1,69 @@
+  <dir>
+    <title>2009</title>
+    <tmdb>year/movies/2009</tmdb>
+    <summary>Browse movies released in 2009</summary>
+    <thumbnail>https://raw.githubusercontent.com/OpenELEQ/repository.elysium/master/images/Default/2009.png</thumbnail>
+  </dir>
+
+  <dir>
+    <title>2008</title>
+    <tmdb>year/movies/2008</tmdb>
+    <summary>Browse movies released in 2008</summary>
+    <thumbnail>https://raw.githubusercontent.com/OpenELEQ/repository.elysium/master/images/Default/2008.png</thumbnail>
+  </dir>
+
+  <dir>
+    <title>2007</title>
+    <tmdb>year/movies/2007</tmdb>
+    <summary>Browse movies released in 2007</summary>
+    <thumbnail>https://raw.githubusercontent.com/OpenELEQ/repository.elysium/master/images/Default/2007.png</thumbnail>
+  </dir>
+
+  <dir>
+    <title>2006</title>
+    <tmdb>year/movies/2006</tmdb>
+    <summary>Browse movies released in 2006</summary>
+    <thumbnail>https://raw.githubusercontent.com/OpenELEQ/repository.elysium/master/images/Default/2006.png</thumbnail>
+  </dir>
+
+  <dir>
+    <title>2005</title>
+    <tmdb>year/movies/2005</tmdb>
+    <summary>Browse movies released in 2005</summary>
+    <thumbnail>https://raw.githubusercontent.com/OpenELEQ/repository.elysium/master/images/Default/2005.png</thumbnail>
+  </dir>
+
+  <dir>
+    <title>2004</title>
+    <tmdb>year/movies/2004</tmdb>
+    <summary>Browse movies released in 2004</summary>
+    <thumbnail>https://raw.githubusercontent.com/OpenELEQ/repository.elysium/master/images/Default/2004.png</thumbnail>
+  </dir>
+
+  <dir>
+    <title>2003</title>
+    <tmdb>year/movies/2003</tmdb>
+    <summary>Browse movies released in 2003</summary>
+    <thumbnail>https://raw.githubusercontent.com/OpenELEQ/repository.elysium/master/images/Default/2003.png</thumbnail>
+  </dir>
+
+  <dir>
+    <title>2002</title>
+    <tmdb>year/movies/2002</tmdb>
+    <summary>Browse movies released in 2002</summary>
+    <thumbnail>https://raw.githubusercontent.com/OpenELEQ/repository.elysium/master/images/Default/2002.png</thumbnail>
+  </dir>
+
+  <dir>
+    <title>2001</title>
+    <tmdb>year/movies/2001</tmdb>
+    <summary>Browse movies released in 2001</summary>
+    <thumbnail>https://raw.githubusercontent.com/OpenELEQ/repository.elysium/master/images/Default/2001.png</thumbnail>
+  </dir>
+
+  <dir>
+    <title>2000</title>
+    <tmdb>year/movies/2000</tmdb>
+    <summary>Browse movies released in 2000</summary>
+    <thumbnail>https://raw.githubusercontent.com/OpenELEQ/repository.elysium/master/images/Default/2000.png</thumbnail>
+  </dir>

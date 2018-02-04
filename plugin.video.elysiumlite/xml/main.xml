@@ -1,0 +1,43 @@
+<xml>
+  <dir>
+    <title>Movies</title>
+    <link>file://movies.xml</link>
+    <thumbnail>https://raw.githubusercontent.com/OpenELEQ/repository.elysium/master/images/Default/movies.png</thumbnail>
+    <summary>Movies</summary>
+  </dir>
+
+  <dir>
+    <title>TV Shows</title>
+    <link>file://tvshows.xml</link>
+    <thumbnail>https://raw.githubusercontent.com/OpenELEQ/repository.elysium/master/images/Default/tvshows.png</thumbnail>
+    <summary>TV Shows</summary>
+  </dir>
+
+  <dir>
+    <title>Trakt</title>
+    <link>file://trakt.xml</link>
+    <thumbnail>https://raw.githubusercontent.com/OpenELEQ/repository.elysium/master/images/Default/trakt.png</thumbnail>
+    <summary>Trakt</summary>
+  </dir>
+
+  <dir>
+    <title>Actors</title>
+    <link>file://people.xml</link>
+    <thumbnail>https://raw.githubusercontent.com/OpenELEQ/repository.elysium/master/images/Default/people.png</thumbnail>
+    <summary>Actors</summary>
+  </dir>
+
+  <plugin>
+    <title>Settings</title>
+    <link>plugin://plugin.video.elysiumlite/?action=openSettings</link>
+    <thumbnail>https://raw.githubusercontent.com/OpenELEQ/repository.elysium/master/images/Default/tools.png</thumbnail>
+    <summary>Settings</summary>
+  </plugin>
+
+  <dir>
+    <title>Search</title>
+    <link>file://search.xml</link>
+    <thumbnail>https://raw.githubusercontent.com/OpenELEQ/repository.elysium/master/images/Default/search.png</thumbnail>
+    <summary>Search</summary>
+  </dir>
+</xml>

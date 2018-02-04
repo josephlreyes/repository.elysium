@@ -1,0 +1,13 @@
+<xml>
+  <dir>
+    <title>Search TMDB</title>
+    <tmdb>search</tmdb>
+    <thumbnail>https://raw.githubusercontent.com/OpenELEQ/repository.elysium/master/images/Default/tmdb.png</thumbnail>
+  </dir>
+
+  <dir>
+    <title>Search Trakt</title>
+    <trakt>search</trakt>
+    <thumbnail>https://raw.githubusercontent.com/OpenELEQ/repository.elysium/master/images/Default/trakt.png</thumbnail>
+  </dir>
+</xml>
